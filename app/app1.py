@@ -111,9 +111,10 @@ Your tasks:
 
 2) Produce an **LLM remediation prompt** to:
    - Scan ABAP code in this unit for J_1IMOCUST/J_1IMOVEND usage, both in SQL and DATA/TYPE declarations.
+   - Field Name of old table and new table are same. mention this in llm prompt output.
    - Replace with BP Master table (KNA1/LFA1) and relevant structure reference.
    - Adjust SELECT fields: remove obsolete CIN fields, ensure key fields are present.
-   - **Replace DATA/TYPE declarations to use KNA1/LFA1 and add a TODO for structure/dictionary mapping where necessary.**
+   - **Replace DATA/TYPE declarations to use KNA1/LFA1 tables and keeping the field name same.**
    - Output strictly in JSON with: original_code, remediated_code, changes[].
 
 Return ONLY strict JSON:
