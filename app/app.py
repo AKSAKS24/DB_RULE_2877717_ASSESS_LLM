@@ -100,7 +100,6 @@ Your tasks:
    - Replace with respective BP Master table (KNA1/LFA1).
    - Adjust SELECT fields: remove obsolete CIN fields, ensure key fields are present.
    - Add `TODO` comments where manual mapping of fields is required.
-   - Output strictly in JSON with: original_code, remediated_code, changes[].
 
 Return ONLY strict JSON:
 {{

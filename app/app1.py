@@ -115,7 +115,6 @@ Your tasks:
    - Replace with BP Master table (KNA1/LFA1) and relevant structure reference.
    - Adjust SELECT fields: remove obsolete CIN fields, ensure key fields are present.
    - **Replace DATA/TYPE declarations to use KNA1/LFA1 tables and keeping the field name same.**
-   - Output strictly in JSON with: original_code, remediated_code, changes[].
 
 Return ONLY strict JSON:
 {{
